@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog p,
+.blog figure,
+.blog ul,
+.blog blockquote,
+.blog hr,
+.blog h3 {
+  @apply mt-4;
+}
+
+.blog h3 {
+  @apply text-xl font-bold;
+}
+
+.blog ul li {
+  @apply list-disc mt-2;
+}
+
+.blog blockquote {
+  @apply border-l-4 pl-4;
+}
+
+.blog hr {
+  @apply text-gray-200;
+}
+
+.blog p {
+  @apply leading-8 text-gray-700;
+}
+
+.blog figure figcaption {
+  @apply text-gray-500 text-sm mt-2;
+}
